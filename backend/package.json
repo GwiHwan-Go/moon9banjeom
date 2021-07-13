@@ -1,0 +1,39 @@
+{
+  "name": "moon9banjeom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --exec babel-node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GwiHwan-Go/moon9banjeom.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GwiHwan-Go/moon9banjeom/issues"
+  },
+  "homepage": "https://github.com/GwiHwan-Go/moon9banjeom#readme",
+  "dependencies": {
+    "@prisma/client": "^2.27.0",
+    "apollo-server": "^3.0.0",
+    "apollo-server-express": "^3.0.0",
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "graphql": "^15.5.1",
+    "graphql-tools": "^7.0.5",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/node": "^7.14.7",
+    "@babel/preset-env": "^7.14.7",
+    "nodemon": "^2.0.12",
+    "prisma": "^2.27.0"
+  }
+}
