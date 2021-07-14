@@ -16,7 +16,7 @@ const apollo = new ApolloServer({
 
 const PORT = process.env.PORT;
 const app = express();
-// app.use(logger("tiny"));
+app.use(logger("tiny"));
 apollo.applyMiddleware({ app });
 app.use("/static", express.static("uploads"));
 app.listen({ port: PORT }, () => {
