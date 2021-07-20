@@ -23,7 +23,6 @@ export default{
         }),
         isMine : ({userId},_,{loggedInUser}) => (loggedInUser? userId === loggedInUser.id : false)
         ,
-
         isLiked : async ({id},_,{loggedInUser}) => {
             if(!loggedInUser){
                 return false;

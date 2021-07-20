@@ -7,12 +7,13 @@ export default gql `
         lastName: String
         username: String!
         email: String!
+        seen: [Seen]
         createdAt: String!
         updatedAt: String!
         bio: String
         avatar: String
-        # photos: [Photo]
-        # reacts: [React]
+        photos: [Photo]
+        likes: [Like]
         isMe: Boolean!
     }
 `

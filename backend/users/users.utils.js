@@ -8,7 +8,21 @@ export const getUser = async (token) => {
         return null;
     }
     const {id} = await jwt.verify(token, process.env.SECRET_KEY);
-    const loggedInUser = await client.user.findUnique({where:{id}});
+    const loggedInUser = await client.user.findUnique(
+      {
+        where : {
+          id
+        },
+        select : {
+          id: true,
+          username: true,
+          seen : {
+            select : {
+              photoId: true
+            }
+          }
+        }
+      });
     if(loggedInUser){
         return loggedInUser
     }else {

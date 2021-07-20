@@ -9,16 +9,24 @@ export default gql`
         likesNumber: Int!
         commentNumber: Int!
         comments: [Comment]
+        seen: [Seen]
         isMine: Boolean!
         isLiked: Boolean!
         createdAt: String!
         updatedAt: String!
     }
     
-    type React {
+    type Like {
         id: Int!
-        howmuch: Int!
         photo: Photo!
+        createdAt: String!
+        updatedAt: String!
+    }
+
+    type Seen {
+        id: Int!
+        photo: Photo!
+        user: User!
         createdAt: String!
         updatedAt: String!
     }
