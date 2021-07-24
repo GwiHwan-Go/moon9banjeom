@@ -18,14 +18,14 @@ export default gql`
     
     type Like {
         id: Int!
-        photo: Photo!
+        photo: Photo
         createdAt: String!
         updatedAt: String!
     }
 
     type Seen {
         id: Int!
-        photo: Photo!
+        photo: Photo
         user: User!
         createdAt: String!
         updatedAt: String!
