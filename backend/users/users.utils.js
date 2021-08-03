@@ -16,13 +16,14 @@ export const getUser = async (token) => {
         select : {
           id: true,
           username: true,
-          seen : {
-            select : {
-              photoId: true
-            }
-          }
+          // seen : {
+          //   select : {
+          //     photoId: true
+          //   }
+          // }
         }
       });
+    console.log(loggedInUser);
     if(loggedInUser){
         return loggedInUser
     }else {
@@ -34,7 +35,32 @@ export const getUser = async (token) => {
 }
 
 };
+export const seenList = async (token) => {
+  try{
+  if(!token){
+      // console.log("no token has been found");
+      return null;
+  }
+  const {id} = await jwt.verify(token, process.env.SECRET_KEY);
+  const seenlist = await client.seen.findMany({
+      where : {
+        userId : id,
+      },
+      select : {
+        photoId : true,
+      }
+    });
+  if(seenlist.length>0){
+      return seenlist.map(obj=>obj.photoId)
+  }else {
+      console.log("no seen list");
+      return []
+  }
+}catch {
+  return null;
+}
 
+};
 export const protectedResolver = (ourResolver) => (
     root,
     args,
