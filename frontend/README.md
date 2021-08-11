@@ -1,6 +1,6 @@
-### Moon9Banjeom FONTEND with REACT-NATIVE
+# Moon9Banjeom FONTEND with REACT-NATIVE
 
-# Quick Start
+Quick Start
 ```terminal
 $ expo init my-app
 $ cd my-app
@@ -9,7 +9,7 @@ $ expo start
 //if you installed git
 $ git clone this_project
 ```
-# how to run
+how to run
 
 install ngrok exposer
 
@@ -23,10 +23,12 @@ const httpLink = createHttpLink({
 ```terminal
 $ npm run start
 ```
-# run in your Expo Go App on your Iphone
+run in your Expo Go App on your Iphone
 
 if you are in the same Wi-Fi, use LAN or use TUNNEL
-# needed module
+
+
+needed module
 ```terminal
 $ expo install expo-app-loading
 $ expo install expo-font
