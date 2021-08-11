@@ -1,6 +1,6 @@
 ### Moon9Banjeom FONTEND with REACT-NATIVE
 
-#Quick Start
+# Quick Start
 ```
 expo init my-app
 cd my-app
@@ -9,11 +9,11 @@ expo start
 //if you installed git
 git clone this_project
 ```
-#how to run
+# how to run
 ```
 npm run start
 ```
-#needed module
+# needed module
 ```
 expo install expo-app-loading
 expo install expo-font
