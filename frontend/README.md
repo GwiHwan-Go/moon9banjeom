@@ -11,7 +11,7 @@ $ git clone this_project
 ```
 # how to run
 ```terminal
-npm run start
+$ npm run start
 ```
 # needed module
 ```terminal
