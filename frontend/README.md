@@ -1,3 +1,9 @@
+REACT-NATIVE
+
+
+
+//needed module
+
 expo install expo-app-loading
 
 expo install expo-font
