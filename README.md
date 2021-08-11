@@ -1,7 +1,38 @@
 # moon9banjeom
-2021 COCO summer project
+## 2021 COCO summer project 
 
-recommend customized phrase for SNS uploading CO:CO 여름방학 프로젝트 참가. 팀명 : BbackX222 기간 : 6/20~
+![logo_light](https://user-images.githubusercontent.com/83144588/129044833-4c863f33-3ed7-4e0b-a368-b84e9fe0284c.png)
+
+
+
+### Project Summary
+
+  Good phrase recommendation service. 
+  
+  The app is collecting user's data in real time and recommend phrases that user may like.
+  
+### Main Feature of the project
+  
+  1. Language : Javascript 100%
+  2. DB : PostreSQL
+  3. Backend : PrismaSQL + GraphQL
+  4. Frontend : React-Native + Apollo-Server + GraphQL
+  5. Machine-Learning : Collaborative Filtering
+
+
+### What's Special
+
+  1. Real-time Collecting User's information and Recommend
+  2. Fast interaction with Apollo-Server-Cache
+
+
+### Subsequent Plan
+
+  1. Solve the Copyright problem
+  2. Edit Profile Function
+  3. Upload Photo Function
+  3. Comment Function
+
 
 #1 6/20 아이디어 선정
 
@@ -18,3 +49,7 @@ git hub 연결법 https://www.youtube.com/watch?v=Z9dvM7qgN9s&t=1560s 참고. �
 #4 7/3 중간 진행 상황 1.부대 내 컴퓨터 문제로 코드 실행에 문제발생 해결책 : 준우, 승희가 협업해서 데이터 크롤링 및 알고리즘 개발전담
 
 유저모델에 매트릭스를 추가하여서 협업필터링이 가능하도록 매트릭스 형태는 (Itemkey, Feedback)
+
+#5 8/11 complete final commition for COCO:Presentation
+
+#6 8/13 COCO: Summer Project Competition
