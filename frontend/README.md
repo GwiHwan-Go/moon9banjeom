@@ -10,11 +10,12 @@ $ expo start
 //if you installed git
 $ git clone this_project
 ```
-how to run
-
 install ngrok exposer
+```terminal
+$ ngrok http 4000
+```
+and edit apollo.js as this
 
-in the apollo.js
 ```
 const httpLink = createHttpLink({
   // uri: "http://localhost:4000/graphql",
