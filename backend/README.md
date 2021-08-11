@@ -8,9 +8,6 @@ LANGUAGE : Javascript
 
 MODULES : PRISMA SQL + GraphQL + APOLLO Server 
 
-LOCAL SERVER EXPOSER : Ngrok
-
-
 # Quick Start
 
 install postresql and make .env file to navigate your code to the DB.
