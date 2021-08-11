@@ -10,9 +10,22 @@ $ expo start
 $ git clone this_project
 ```
 # how to run
+
+install ngrok exposer
+
+in the apollo.js
+```
+const httpLink = createHttpLink({
+  // uri: "http://localhost:4000/graphql",
+  uri: "{your ngrok http url}/graphql",
+});
+```
 ```terminal
 $ npm run start
 ```
+# run in your Expo Go App on your Iphone
+
+if you are in the same Wi-Fi, use LAN or use TUNNEL
 # needed module
 ```terminal
 $ expo install expo-app-loading
