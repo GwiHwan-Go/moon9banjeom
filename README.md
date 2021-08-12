@@ -33,3 +33,7 @@ Contributor : SeungHee-Han, JunWoo-Lim
   2. Edit Profile Function
   3. Upload Photo Function
   3. Comment Function
+  4. Develop blockChain-like share-approve Community.
+    a. Every user has level.
+    b. if user uploads photo, it needs approvals. 
+        For example, it needs 10 approvals to be uploaded to DB server. If user’s level is high, one can execute more than 1                 approval just like manager can execute 10 approvals.
