@@ -4,7 +4,10 @@
 Contributor : SeungHee-Han, JunWoo-Lim
 ![logo_light](https://user-images.githubusercontent.com/83144588/129044833-4c863f33-3ed7-4e0b-a368-b84e9fe0284c.png)
 
+## Tools
 
+  1. Javascript : 100%
+  2. React-Native with Expo, GraphQL, Apollo-Server, PrismaSQL with PosgreSQL(PGadmin4) 
 
 ### Project Summary
 
