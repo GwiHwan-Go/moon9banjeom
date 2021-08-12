@@ -18,7 +18,7 @@ Contributor : SeungHee-Han, JunWoo-Lim
 ### Main Feature of the projectCancel changes
   
   1. Language : Javascript 100%
-  2. DB : PostreSQL
+  2. DB : PosgreSQL
   3. Backend : PrismaSQL + GraphQL
   4. Frontend : React-Native + Apollo-Server + GraphQL
   5. Machine-Learning : Collaborative Filtering
