@@ -12,7 +12,7 @@ Contributor : SeungHee-Han, JunWoo-Lim
   
   The app is collecting user's data in real time and recommend phrases that user may like.
   
-### Main Feature of the project
+### Main Feature of the projectCancel changes
   
   1. Language : Javascript 100%
   2. DB : PostreSQL
@@ -27,7 +27,7 @@ Contributor : SeungHee-Han, JunWoo-Lim
   2. Fast interaction with Apollo-Server-Cache
 
 
-### Subsequent Plan to do
+### Subsequent Plans to do
 
   1. Solve the Copyright problem
   2. Edit Profile Function
